@@ -234,7 +234,9 @@ JSONカラムでは外部キー制約を設定できないのに対し、EAVは�
 
 
 [Goでテストをしやすくするためにやったこと](https://speakerdeck.com/kazukihayase/gotetesutowosiyasukusurutameniyatutakoto)
+
 [GoのTestifyを使って独立したサブテストを実現する](https://tech.buysell-technologies.com/entry/2023/11/30/091518)
+
 [Goのジェネリクスを使って、テーブル駆動テスト(TDT)に統一性を持たせる](https://zenn.dev/buyselltech/articles/ef92713b8dde8a)
 
 ##### フロントエンド構成の整備
@@ -245,7 +247,9 @@ JSONカラムでは外部キー制約を設定できないのに対し、EAVは�
 具体的な取り組みに関しては下記を参照。
 
 [開発効率を上げるためのモダンなフロントエンド構成](https://tech.buysell-technologies.com/entry/adventcalendar2023-12-01)
+
 [MUIをベースにしたデザインシステムの構築](https://tech.buysell-technologies.com/entry/2023/01/31/000000)
+
 [graphql-eslintを使用してGraphQLの命名規則を強制するカスタムルールを作る](https://zenn.dev/buyselltech/articles/fc1479f4fed63d)
 
 ##### React Hook Form + MUIのフォームコンポーネント設計
@@ -361,7 +365,7 @@ Viewは見た目に特化し、ControllerはRHFとViewの連携を担当する�
 そのため、AWS SAMとServerlessFrameworkをそれぞれ用いて、ローカルでの開発環境の整備からデプロイまでを試行し、比較検討を行った。
 その結果、主にローカルでの開発が行いやすい点を重視して、AWS SAMを採用した。
 
-- [AWS SAM + OpenAPI(Swagger) + Golang でサーバーレスなAPIを構築する](https://zenn.dev/buyselltech/articles/2275dd27c3c9cd)
+[AWS SAM + OpenAPI(Swagger) + Golang でサーバーレスなAPIを構築する](https://zenn.dev/buyselltech/articles/2275dd27c3c9cd)
 
 ##### AWS Step Functionsを用いたバッチ処理の実装
 
@@ -369,10 +373,6 @@ AWS Step Functionsを用いて画像の生データを別のS3にコピーし、
 Lambda単体の責務は小さくし、実行順序はStep Functionsで管理することで、Lambda同士を疎結合にし保守性が高くなるように設計した。
 
 この構成にしたことで、リリース後に連携先を増やすことがあったが、その際も既存のLambdaに手を加えることなく、新規Lambdaの実装とStep Functionsの設定のみで対応できた。
-
-#### 参考資料
-
-- [AWS SDK for Go v2 を使ってS3に画像をアップロードする](https://zenn.dev/buyselltech/articles/fcde880dbbb493)
 
 ### その他
 
