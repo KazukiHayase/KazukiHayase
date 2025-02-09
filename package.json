@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "generate:pdf": "md-to-pdf README.short.md"
+    "generate:pdf": "md-to-pdf ./docs/README.short.md"
   },
   "keywords": [],
   "author": "",
