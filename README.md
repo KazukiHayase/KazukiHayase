@@ -315,6 +315,8 @@ Viewは見た目に特化し、ControllerはRHFとViewの連携を担当する�
 
 [3年間に及ぶ新規プロダクト開発の技術選定の振り返り](https://tech.buysell-technologies.com/entry/adventcalendar2024-12-01)
 
+[もし今からGraphQLを採用するなら](https://speakerdeck.com/kazukihayase/mosijin-karagraphqlwocai-yong-surunara)
+
 ##### 開発生産性向上のための取り組み
 
 チームリーダーとして、スクラムの導入や開発生産性向上のための取り組みを主導した。
