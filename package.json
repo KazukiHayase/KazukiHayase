@@ -1,0 +1,15 @@
+{
+  "name": "KazukiHayase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate:pdf": "md-to-pdf README.short.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "md-to-pdf": "^5.2.4"
+  }
+}
