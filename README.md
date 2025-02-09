@@ -31,10 +31,10 @@
 |CI・CD|GitHub Actions、CircleCI|
 |ツール|Jira、Confluence、Slack、Sentry|
 
-<div align="left"> 
-  <img alt="github stats" height="200px" src="https://github-readme-stats-taupe-alpha-61.vercel.app/api?username=KazukiHayase&count_private=true&show_icons=true&show_icons=true&theme=onedark" />
-  <img alt="Top Langs" height="200px" src="https://github-readme-stats-taupe-alpha-61.vercel.app/api/top-langs/?username=KazukiHayase&count_private=true&show_icons=true&theme=onedark&exclude_repo=dotfiles,github-readme-stats" />
-</div>
+<!-- <div align="left">  -->
+<!--   <img alt="github stats" height="200px" src="https://github-readme-stats-taupe-alpha-61.vercel.app/api?username=KazukiHayase&count_private=true&show_icons=true&show_icons=true&theme=onedark" /> -->
+<!--   <img alt="Top Langs" height="200px" src="https://github-readme-stats-taupe-alpha-61.vercel.app/api/top-langs/?username=KazukiHayase&count_private=true&show_icons=true&theme=onedark&exclude_repo=dotfiles,github-readme-stats" /> -->
+<!-- </div> -->
 
 # 自己PR
 
