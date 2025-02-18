@@ -1,5 +1,9 @@
 # 職務経歴書
 
+分量の関係で一部省略、完全版は下記に記載。
+<br/>
+https://github.com/KazukiHayase
+
 # 基本情報
 
 |項目|詳細|
