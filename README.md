@@ -88,7 +88,76 @@
 
 # 職務経歴
 
-## 2021/04 ~ 現在 株式会社 BuySell Technologies
+## 2025/04 ~ 現在 株式会社 ドクターズプライム
+
+### 医師向け求人マッチングプラットフォームの開発・運用
+
+医師と病院のマッチングを支援するWebアプリケーションの開発に従事。
+リードエンジニアとして、新機能開発やDevOps改善、メンバーの育成などを担当。
+
+#### 概要
+
+|項目|詳細|
+|---|---|
+|期間|2025/04~|
+|チーム構成|EM 1名、PdM 2名、エンジニア 3名|
+|役割|リードエンジニア、フルスタックエンジニア|
+|使用技術|**インフラ**<br/>Google Cloud、Terraform、PostgreSQL<br/><br/>**バックエンド**<br/>GraphQL、Hasura、Go、Ent、Twirp、Algolia<br/><br/>**フロントエンド**<br/>React、Next.js、TypeScript、Apollo Client、GraphQL Code Generator、React Hook Form、zod、Chakra UI、MUI|
+
+#### 担当業務
+
+- プロジェクトマネジメント
+    - タスク分解・スケジュール管理
+    - 技術的意思決定のリード
+- バックエンド
+    - 新規機能の設計・実装
+    - 既存APIのリファクタリング
+    - 技術的負債の解消
+- フロントエンド
+    - 新規画面の設計・実装
+
+#### 主要実績
+
+##### 社内オペレーション自動化のための機能群の設計・実装
+
+医師向けの求人マッチングプラットフォームにおいて、社内オペレーションで対応している業務を効率化するための複数の機能の設計・実装を行った。
+PdMと協業し、オペレーションの再設計や業務フローの見直しを行いながら、社内での対応が不要になるような機能開発を行った。
+
+- RRuleを用いた繰り返しパターンの実装
+- entのPrivacy機能とgo/astを用いた、DBアクセス制御の実装
+
+##### 技術的負債の解消
+
+プロダクトの成長に伴い蓄積された技術的負債に対し、段階的な解消を実施した。
+開発の過程で使用技術の変更が行われ、移行途中で放置されていた箇所が複数存在していた。
+そのため、新規機能開発と並行して、技術的負債の解消を進め、コードベースの一貫性と保守性を向上させた。
+
+- AppEngine -> Cloud Runへの移行
+- 病院向け管理画面のフルリプレイス
+- Datastore -> PostgreSQLの移行に伴うダブルライト削除
+- RPC -> GraphQLへの移行
+- DBのデータの正規化、FK設定の追加
+
+##### DevOps改善
+
+チーム全体の開発効率を向上させるための施策を推進した。
+CI高速化やAIツールの活用促進に加え、PdM領域へのAI活用やデザインシステムの整備など、多方面での改善を実施。
+
+- CI高速化
+- セキュリティ対策（サプライチェーン攻撃への対応）
+- PdM領域へのAI活用推進
+- Claude Codeの活用推進とベストプラクティスの共有
+- デザインシステムの整備
+
+[CIでのgolangci-lintの実行を約90%削減した話](https://speakerdeck.com/kazukihayase/cidenogolangci-lintnoshi-xing-woyue-90-percent-xue-jian-sitahua)
+
+[go testのキャッシュの仕組みを理解して、テストコードを変えずにCIを高速化する](https://zenn.dev/drsprime/articles/go-test-cache-ci-optimization)
+
+[Claude Codeを開発の全フェーズで活用したら開発生産性が1.5倍に向上した](https://zenn.dev/drsprime/articles/3eeb7d95e954ea)
+
+[要件定義・デザインフェーズでもAIを活用して、コミュニケーションの密度を高める](https://speakerdeck.com/kazukihayase/yao-jian-ding-yi-dezainhuezudemoaiwohuo-yong-site-komiyunikesiyonnomi-du-wogao-meru)
+
+## 2021/04 ~ 2025/03 株式会社 BuySell Technologies
 
 ### リユース特化のOMS（Order Management System）の開発
 
@@ -108,7 +177,7 @@
 
 |項目|詳細|
 |---|---|
-|期間|2024/10~|
+|期間|2024/10~2025/03|
 |チーム構成|EM 1名、PdM 1名、バックエンド 8名、フロントエンド 2名|
 |役割|プロジェクトマネージャー、テックリード|
 |使用技術|Phase0と同じ|
